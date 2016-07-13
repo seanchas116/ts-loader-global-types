@@ -1,0 +1,30 @@
+{
+  "name": "ts-loader-global-types",
+  "version": "1.0.0",
+  "description": "ts-loader with typescript 2.0 can't find global type definitions from `node_modules/@types`",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "webpack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanchas116/ts-loader-global-types.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanchas116/ts-loader-global-types/issues"
+  },
+  "homepage": "https://github.com/seanchas116/ts-loader-global-types#readme",
+  "private": true,
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.0",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "@types/node": "^4.0.28-alpha"
+  }
+}
